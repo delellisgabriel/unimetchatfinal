@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="loginCard">
+    <h2 class="heading">Conectarse - UNIMETChat</h2>
+    <input [(ngModel)]="email"
+           type="email"
+           name="email"
+           class="formInput" />
+    <input type="password"
+           [(ngModel)]="password"
+           name="password"
+           class="formInput" />
+    <button class="btn"
+            id="btn-login"
+            (click)="login()">
+      Log In
+    </button>
+  </div>
+</div>
